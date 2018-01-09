@@ -50,7 +50,7 @@ function add(num1, num2){
 	return num1 + num2;
 }
 var sum = add(bango1, bango2);
-console.log (sum);
+console.log ("sum:", sum);
 
 /*
  * #3
@@ -70,7 +70,7 @@ function subtract(num1, num2){
 	return num1 - num2;
 }
 var difference = subtract(bango1, bango2);
-console.log (difference);
+console.log ("difference:", difference);
 
 
 /*
@@ -91,7 +91,7 @@ function multiply(num1, num2){
 	return num1 * num2;
 }
 var product = multiply(bango1, bango2);
-console.log(product);
+console.log("product:", product);
 
 /*
  * #5
@@ -111,7 +111,7 @@ function divide(num1,num2){
 	return num1 / num2;
 }
 var quotient = divide(bango1, bango2);
-console.log (quotient);
+console.log ("quotient:", quotient);
 
 /*
  * #6
@@ -129,7 +129,7 @@ function checkSum(x){
 	return "Mariah Carey has been married " + x + " amount of times.";
 }
 var daDiva = checkSum(2);
-console.log (daDiva);
+console.log ("How many?:", daDiva);
 
 /*
  * #7
@@ -146,7 +146,7 @@ console.log (daDiva);
 function checkDifference(x){
 	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos.";
 }
-console.log (checkDifference(difference));
+console.log ("So many:", checkDifference(difference));
 
 /*
  * #8
@@ -162,7 +162,7 @@ console.log (checkDifference(difference));
 function checkProduct(){
 	return sum * product;
 }
-console.log(checkProduct());
+console.log("checkProduct:", checkProduct());
 
 /*
  * #9
@@ -178,7 +178,7 @@ console.log(checkProduct());
 function checkQuotient(){
 	return product * quotient;
 }
-console.log (checkQuotient());
+console.log ("checkQuotient:", checkQuotient());
 
 /*
  * Declare three variables
@@ -207,7 +207,7 @@ var bango5 = 789;
 function addThenSubtract(num1, num2, num3){
 	return subtract(add(num1, num2), num3);
 }
-console.log(addThenSubtract(bango3, bango4, bango5));
+console.log("addThenSubtract:", addThenSubtract(bango3, bango4, bango5));
 
 /*
  * #11
@@ -226,7 +226,7 @@ console.log(addThenSubtract(bango3, bango4, bango5));
 function multiplyThenDivide(num1, num2, num3){
 	return divide(multiply(num1, num2), num3);
 }
-console.log(multiplyThenDivide(bango3, bango4, bango5));
+console.log("multiplyThenDivide:", multiplyThenDivide(bango3, bango4, bango5));
 
 /*
  * #12
@@ -244,7 +244,7 @@ function createFullName(firstName, lastName){
 	return firstName + " " + lastName;
 }
 var myFullName = createFullName("Jamie", "Yamashita");
-console.log (myFullName);
+console.log ("myFullName:", myFullName);
 
 /*
  * #13 
@@ -263,7 +263,7 @@ console.log (myFullName);
 function eatFood(firstName, lastName, food){
 	return createFullName(firstName, lastName) + " eats " + food + " everyday for breakfast.";
 }
-console.log (eatFood("Jamie", "Yamashita", "pizza"));
+console.log ("eatFood:", eatFood("Jamie", "Yamashita", "pizza"));
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
@@ -281,7 +281,7 @@ console.log (eatFood("Jamie", "Yamashita", "pizza"));
 function shoeSize(inches){
 	return inches * 2.54;
 }
-console.log(shoeSize(25));
+console.log("shoeSize:", shoeSize(25));
 
 /*
  * #15
@@ -296,7 +296,7 @@ console.log(shoeSize(25));
 function allCaps(str){
 	return str.toUpperCase();
 }
-console.log(allCaps("abcdefghijklmnopqrstuvwxyz"));
+console.log("allCaps:", allCaps("abcdefghijklmnopqrstuvwxyz"));
 
 /*
  * #16
@@ -309,7 +309,7 @@ console.log(allCaps("abcdefghijklmnopqrstuvwxyz"));
 function oneCap(str) {  
   return str[0].toUpperCase() + str.slice(1);
 }
-console.log(oneCap("i'm a little tea pot"));
+console.log("oneCap:", oneCap("i'm a little tea pot"));
 
 /*
  * #17
@@ -329,7 +329,7 @@ function verifyDrinkingAge(age){
 	}
 }
 var canDrink = verifyDrinkingAge(24);
-console.log (canDrink);
+console.log ("canDrink:", canDrink);
 
 /**
  * #18
@@ -345,4 +345,4 @@ function throwParty(age){
 	}
 }
 var canParty = throwParty();
-console.log (canParty);
+console.log ("Can you party?", canParty);
