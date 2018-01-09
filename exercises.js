@@ -146,7 +146,7 @@ console.log ("How many?:", daDiva);
 function checkDifference(x){
 	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos.";
 }
-console.log ("So many:", checkDifference(difference));
+console.log ("So many:", checkDifference("525,600"));
 
 /*
  * #8
