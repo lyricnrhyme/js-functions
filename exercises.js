@@ -311,6 +311,17 @@ function oneCap(str) {
 }
 console.log("oneCap:", oneCap("i'm a little tea pot"));
 
+var uplifting = "believe you can and you're halfway there.";
+
+function oneCap2(str) {
+	var firstCap = str.charAt(0);
+	var beginCap = first.Cap.toUpperCase();
+	return beginCap + str.uplifting.slice(1, 41);
+}
+
+var capOne = oneCap(uplifting);
+console.log(capOne);
+
 /*
  * #17
  * Function - verifyDrinkingAge
