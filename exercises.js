@@ -205,7 +205,7 @@ var bango4 = 456;
 var bango5 = 789;
 
 function addThenSubtract(num1, num2, num3){
-	return subtract(add(num1, num2), num3);
+	return subtract(num3, add(num1, num2));
 }
 console.log("addThenSubtract:", addThenSubtract(bango3, bango4, bango5));
 
