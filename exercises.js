@@ -27,8 +27,8 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-var bango1 = 36
-var bango2 = 12
+var bango1 = 36;
+var bango2 = 12;
 
 
 /*
@@ -47,10 +47,10 @@ var bango2 = 12
 */
 
 function add(num1, num2){
-	return num1 + num2
+	return num1 + num2;
 }
 var sum = add(bango1, bango2);
-console.log (sum)
+console.log (sum);
 
 /*
  * #3
@@ -67,10 +67,10 @@ console.log (sum)
 */ 
 
 function subtract(num1, num2){
-	return num1 - num2
+	return num1 - num2;
 }
-var difference = subtract(bango1, bango2)
-console.log (difference)
+var difference = subtract(bango1, bango2);
+console.log (difference);
 
 
 /*
@@ -88,10 +88,10 @@ console.log (difference)
 */
 
 function multiply(num1, num2){
-	return num1 * num2
+	return num1 * num2;
 }
 var product = multiply(bango1, bango2);
-console.log(product)
+console.log(product);
 
 /*
  * #5
@@ -108,10 +108,10 @@ console.log(product)
 */
 
 function divide(num1,num2){
-	return num1 / num2
+	return num1 / num2;
 }
 var quotient = divide(bango1, bango2);
-console.log (quotient)
+console.log (quotient);
 
 /*
  * #6
@@ -126,10 +126,10 @@ console.log (quotient)
 */
 
 function checkSum(x){
-	return "Mariah Carey has been married " + x + " amount of times."
+	return "Mariah Carey has been married " + x + " amount of times.";
 }
 var daDiva = checkSum(2);
-console.log (daDiva)
+console.log (daDiva);
 
 /*
  * #7
@@ -144,9 +144,9 @@ console.log (daDiva)
 */ 
 
 function checkDifference(x){
-	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos."
+	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos.";
 }
-console.log (checkDifference(difference))
+console.log (checkDifference(difference));
 
 /*
  * #8
@@ -160,9 +160,9 @@ console.log (checkDifference(difference))
 */
 
 function checkProduct(){
-	return sum * product
+	return sum * product;
 }
-console.log(checkProduct())
+console.log(checkProduct());
 
 /*
  * #9
@@ -176,9 +176,9 @@ console.log(checkProduct())
 */
 
 function checkQuotient(){
-	return product * quotient
+	return product * quotient;
 }
-console.log (checkQuotient())
+console.log (checkQuotient());
 
 /*
  * Declare three variables
@@ -200,14 +200,14 @@ console.log (checkQuotient())
  * Console.log your result.
 */ 
 
-var bango3 = 123
-var bango4 = 456
-var bango5 = 789
+var bango3 = 123;
+var bango4 = 456;
+var bango5 = 789;
 
 function addThenSubtract(num1, num2, num3){
-	return subtract(add(num1, num2), num3)
+	return subtract(add(num1, num2), num3);
 }
-console.log(addThenSubtract(bango3, bango4, bango5))
+console.log(addThenSubtract(bango3, bango4, bango5));
 
 /*
  * #11
@@ -224,9 +224,9 @@ console.log(addThenSubtract(bango3, bango4, bango5))
 */ 
 
 function multiplyThenDivide(num1, num2, num3){
-	return divide(multiply(num1, num2), num3)
+	return divide(multiply(num1, num2), num3);
 }
-console.log(multiplyThenDivide(bango3, bango4, bango5))
+console.log(multiplyThenDivide(bango3, bango4, bango5));
 
 /*
  * #12
@@ -241,10 +241,10 @@ console.log(multiplyThenDivide(bango3, bango4, bango5))
 */
 
 function createFullName(firstName, lastName){
-	return firstName + " " + lastName
+	return firstName + " " + lastName;
 }
 var myFullName = createFullName("Jamie", "Yamashita");
-console.log (myFullName)
+console.log (myFullName);
 
 /*
  * #13 
@@ -261,9 +261,9 @@ console.log (myFullName)
  */
 
 function eatFood(firstName, lastName, food){
-	return createFullName(firstName, lastName) + " eats " + food + " everyday for breakfast."
+	return createFullName(firstName, lastName) + " eats " + food + " everyday for breakfast.";
 }
-console.log (eatFood("Jamie", "Yamashita", "pizza"))
+console.log (eatFood("Jamie", "Yamashita", "pizza"));
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
@@ -279,9 +279,9 @@ console.log (eatFood("Jamie", "Yamashita", "pizza"))
 */
 
 function shoeSize(inches){
-	return inches * 2.54
+	return inches * 2.54;
 }
-console.log(shoeSize(25))
+console.log(shoeSize(25));
 
 /*
  * #15
@@ -294,9 +294,9 @@ console.log(shoeSize(25))
 */
  
 function allCaps(str){
-	return str.toUpperCase()
+	return str.toUpperCase();
 }
-console.log(allCaps("abcdefghijklmnopqrstuvwxyz"))
+console.log(allCaps("abcdefghijklmnopqrstuvwxyz"));
 
 /*
  * #16
@@ -323,13 +323,13 @@ console.log(oneCap("i'm a little tea pot"));
  */
 function verifyDrinkingAge(age){
 	if (age >= 21){
-		return true
+		return true;
 	} else {
-		return false
+		return false;
 	}
 }
-var canDrink = verifyDrinkingAge(24)
-console.log (canDrink)
+var canDrink = verifyDrinkingAge(24);
+console.log (canDrink);
 
 /**
  * #18
@@ -338,11 +338,11 @@ console.log (canDrink)
  */
 
 function throwParty(age){
-	if (canDrink = true) {
-		return "Cheee Hoo! We going to da party!"
+	if (canDrink == true) {
+		return "Cheee Hoo! We going to da party!";
 	} else {
-		return "Meh, see you at Starbucks."
+		return "Meh, see you at Starbucks.";
 	}
 }
 var canParty = throwParty();
-console.log (canParty)
+console.log (canParty);
